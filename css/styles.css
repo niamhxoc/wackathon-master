@@ -1,7 +1,8 @@
 body {
     font-family: arial;
-    background-color: rgb(247,247,247);
+    background-color: (#DFDBE3);
 }
+
 div {
     min-height: 10vh;
     width: 100vw;
