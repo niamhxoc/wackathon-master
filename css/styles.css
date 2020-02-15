@@ -1,4 +1,198 @@
+
 body {
     font-family: arial;
-    background-color: (#DFDBE3);
+    background-color: (#e3dbde);
+}
+
+#container {
+  align: center;
+}
+
+#topheadings {
+  align: center;
+  font-family: arial;
+}
+#budget_intro {
+  padding: 50px;
+  font-family: arial;
+}
+#acc_intro {
+  padding: 50px;
+  font-family: arial;
+}
+#loan_intro {
+  padding: 50px;
+  font-family: arial;
+}
+#accordionExample {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#mortgage_intro {
+  padding: 50px;
+  font-family: arial;
+}
+table.center {
+  margin-left:auto;
+  margin-right:auto;
+}
+#investing {
+  padding: 50px
+}
+#risks {
+  padding: 50px
+  text-align: justify;
+}
+#diversify {
+  padding: 50px;
+  text-align: justify;
+  font-size: 20px;
+}
+/* Include the padding and border in an element's total width and height */
+* {
+  box-sizing: border-box;
+}
+
+/* Remove margins and padding from the list */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the list items */
+#myUL {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Style the header */
+.header {
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+
+/* Clear floats after the header */
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the input */
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 50%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+/* Style the "Add" button */
+.addBtn {
+  padding: 10px;
+  width: 10%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}
+#calc-contain{
+  position: relative;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 12px;
+  margin: 0px auto;
+  padding: 20px 20px 180px 20px;
+}
+#agh{
+  position: relative;
+  float: right;
+  margin-top: 15px;
+}
+#agh p{
+  font-size: 20px;
+  font-weight: 900;
+}
+input[type=button] {
+  background: lightGray;
+  width: 20%;
+  font-size: 20px;
+  font-weight: 900;
+  border-radius: 7px;
+  margin-left: 13px;
+  margin-top: 10px;
+}
+input[type=button]:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+input[type=button]:hover {
+  background-color: #003300;
+  color: white;
+}
+
+input[type = text] {
+  position: relative;
+  display: block;
+  width: 90%;
+  margin: 5px auto;
+  font-size: 20px;
+  padding: 10px;
+  box-shadow: 4px 0px 12px black inset;
 }
