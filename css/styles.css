@@ -1,7 +1,6 @@
 body {
     font-family: arial;
-    background-color: pink;
-    color: rgb(0,24,77);
+    background-color: rgb(247,247,247);
 }
 div {
     min-height: 10vh;
